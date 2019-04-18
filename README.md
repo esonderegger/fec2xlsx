@@ -5,7 +5,7 @@ Microsoft Excel can be a powerful tool for analyzing FEC filings. This library (
 
 ## Usage
 
-Note: this library works best with version 3.7+ of Python due to the [ordering of dictionary keys being guaranteed to be in insertion order](https://docs.python.org/3.7/library/stdtypes.html#typesmapping). The library should still work in older version of Python, but the columns on each sheet might be in a nonsensical order.
+Note: this library works best with version 3.7+ of Python due to the ordering of dictionary keys being [guaranteed](https://docs.python.org/3.7/library/stdtypes.html#typesmapping) to be in insertion order. The library should still work in older version of Python, but the columns on each sheet might be in a nonsensical order.
 
 First, install from PyPi:
 
