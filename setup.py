@@ -7,13 +7,13 @@ with open('README.md', 'r') as file:
 
 requirements = [
     'fecfile>=0.6.1',
-    'requests>=1.1.6',
+    'XlsxWriter>=1.1.6',
 ]
 
 
 setup(
     name='fec2xlsx',
-    version='0.1.1',
+    version='0.1.2',
     description='A python library for making Excel files from FEC filings',
     long_description=long_description,
     long_description_content_type="text/markdown",
