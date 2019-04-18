@@ -13,7 +13,7 @@ requirements = [
 
 setup(
     name='fec2xlsx',
-    version='0.1.0',
+    version='0.1.1',
     description='A python library for making Excel files from FEC filings',
     long_description=long_description,
     long_description_content_type="text/markdown",

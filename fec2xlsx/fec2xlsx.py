@@ -44,6 +44,7 @@ def make_xlsx(fec_iterable, filename, options={}):
                     formats,
                     item.data.keys()
                 )
+                sheets[form_type]['sheet'].freeze_panes(1, 0)
             write_row(
                 sheets[form_type]['sheet'],
                 formats,
